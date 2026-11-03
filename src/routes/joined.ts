@@ -6,9 +6,9 @@ import { requireAuth } from "../middleware/auth.js";
 
 export const joinedRouter = Router();
 
-function parseId(raw: string | undefined): ObjectId | null {
-  return raw && ObjectId.isValid(raw) ? new ObjectId(raw) : null;
-}
+  function parseId(raw: string | string[] | undefined): ObjectId | null {
+    return typeof raw === "string" && ObjectId.isValid(raw) ? new ObjectId(raw) : null;
+  }
 
 /** POST /api/events/:id/join  (private) - stores the event and user data together. */
 joinedRouter.post("/events/:id/join", requireAuth, async (req, res) => {

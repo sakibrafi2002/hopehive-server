@@ -12,9 +12,9 @@ const MAX_LIST_SIZE = 200;
 
 const escapeRegex = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-function parseId(raw: string | undefined): ObjectId | null {
-  return raw && ObjectId.isValid(raw) ? new ObjectId(raw) : null;
-}
+  function parseId(raw: string | string[] | undefined): ObjectId | null {
+    return typeof raw === "string" && ObjectId.isValid(raw) ? new ObjectId(raw) : null;
+  }
 
 /**
  * GET /api/events  (public)
