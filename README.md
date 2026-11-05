@@ -2,8 +2,8 @@
 
 Express and MongoDB REST API for **HopeHive**, a community platform for creating, joining and tracking social service events. The web app lives in the `hopehive-client` repository.
 
-- **Live API:** https://YOUR-SERVER.onrender.com _(replace with your deployed URL)_
-- **Client repository:** https://github.com/YOUR-USERNAME/hopehive-client _(replace)_
+- **Live API:** https://hopehive-server.onrender.com
+- **Client repository:** https://github.com/sakibrafi2002/hopehive-client
 
 ## How it protects the API
 
