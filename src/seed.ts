@@ -17,9 +17,9 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     description:
       "Join us to hand out warm jackets, sweaters and socks to families who sleep in the open during the coldest weeks of the year. Volunteers sort donated clothes by size at the venue and then distribute them street by street. Bring a friend and a few spare bags if you can.",
     eventType: "Donation",
-    thumbnail: photo("photo-1593113598332-cd288d649433"),
+    thumbnail: "https://plus.unsplash.com/premium_photo-1661964155049-f8a24a60be74?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     location: "Mirpur 10, Dhaka",
-    inDays: 4,
+    inDays: 7,
   },
   {
     title: "Blanket Distribution for the Needy",
@@ -28,7 +28,7 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     eventType: "Donation",
     thumbnail: photo("photo-1559027615-cd4628902d4a"),
     location: "Mohammadpur, Dhaka",
-    inDays: 6,
+    inDays: 9,
   },
   {
     title: "Lakeside Cleanup Morning",
@@ -37,25 +37,25 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     eventType: "Cleanup",
     thumbnail: photo("photo-1532629345422-7515f3d16bb6"),
     location: "Dhanmondi Lake, Dhaka",
-    inDays: 9,
+    inDays: 12,
   },
   {
     title: "Community Tree Plantation Day",
     description:
       "Help us plant 300 native saplings along the roadside and school boundary in Uttara. Local gardeners will show you how deep to dig and how to protect young plants. Every volunteer gets a tag to follow the growth of their own tree.",
     eventType: "Plantation",
-    thumbnail: photo("photo-1618477461853-cf6ed80faba5"),
+    thumbnail: "https://images.unsplash.com/photo-1524602585632-a2a01c12307c?q=80&w=907&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     location: "Uttara Sector 7, Dhaka",
-    inDays: 12,
+    inDays: 15,
   },
   {
     title: "Emergency Blood Donation Camp",
     description:
       "Registered doctors and nurses will run a safe, sterile blood donation camp for patients who need regular transfusions. Please eat well and drink water before you come, and bring a valid ID. First time donors are very welcome.",
     eventType: "Blood Donation",
-    thumbnail: photo("photo-1582213782179-e0d53f98f2ca"),
+    thumbnail: "https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
     location: "Banani Community Hall, Dhaka",
-    inDays: 15,
+    inDays: 18,
   },
   {
     title: "Free Evening Classes for Street Children",
@@ -64,7 +64,7 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     eventType: "Education",
     thumbnail: photo("photo-1488521787991-ed7bbaae773c"),
     location: "Farmgate, Dhaka",
-    inDays: 18,
+    inDays: 21,
   },
   {
     title: "Free Health Check-up Camp",
@@ -73,7 +73,7 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     eventType: "Health Camp",
     thumbnail: photo("photo-1469571486292-0ba58a3f068b"),
     location: "Mohakhali, Dhaka",
-    inDays: 22,
+    inDays: 25,
   },
   {
     title: "Hot Meals for Winter Night Workers",
@@ -82,7 +82,7 @@ const samples: Array<Pick<EventDoc, "title" | "description" | "eventType" | "thu
     eventType: "Food Distribution",
     thumbnail: photo("photo-1542810634-71277d95dcbb"),
     location: "Gulshan 1, Dhaka",
-    inDays: 27,
+    inDays: 28,
   },
 ];
 
